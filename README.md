@@ -1,7 +1,7 @@
 # ENGO 651 lab5
 
 
-In this task, we connect to a MQTT broker over WebSockets using the Paho JavaScript client, and then utilize the MQTT protocol to send and receive location updates and any other messages that the user chooses.
+In this task, I connect to a MQTT broker over WebSockets using the Paho JavaScript client, and then utilize the MQTT protocol to send and receive location updates and any other messages that the user chooses.
 
 
 Initially, the user is asked to provide their name, course, MQTT broker address, and port. The default topic used for location sharing is defined by the course and name, both of which are arbitrary. We advise using test.mosquitto.org and port 8081 as the host and port. A map and a number of input forms show up on the website after the connection is made. 
